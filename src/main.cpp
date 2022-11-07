@@ -4,8 +4,6 @@
 //borrowed initial reed switch code from https://lastminuteengineers.com/reed-switch-arduino-tutorial/
 //also borrowed from https://esp32io.com/tutorials/esp32-door-sensor as well
 
-
-
 const int REED_PIN = 19;	// Pin connected to reed switch
 bool messagesent = false; // limit sending of texts
 
