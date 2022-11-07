@@ -7,3 +7,5 @@ static const char *auth_token = "123456789";
 static const char *from_number = "+11111111111111";
 static const char *to_number = "+12222222222";
 static const char *message = "Squirreltrap sprung \U0001F43F ";
+
+const int REED_PIN = 19;	// Pin connected to reed switch
