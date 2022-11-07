@@ -7,5 +7,5 @@
 lib
 test
 include
-config.h
+src/config.h
 
