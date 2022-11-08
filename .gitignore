@@ -4,8 +4,5 @@
 .vscode/launch.json
 .vscode/ipch
 .vscode
-lib
-test
-include
 src/config.h
 
