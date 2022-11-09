@@ -24,9 +24,8 @@ void sendit() {
 }
 
 void setup() {
-	Serial.begin(9600);
+	Serial.begin(115200);
   Serial.println("*** System Starting ***");
-  //   Serial.begin(115200);
 	pinMode(REED_PIN, INPUT_PULLUP);	// Enable internal pull-up for the reed switch
 	pinMode(LED_BUILTIN, OUTPUT);
   Serial.print("Connecting to WiFi network ");  // Connect to wifi
